@@ -15,7 +15,7 @@
 9. Save > Export Project... > Save ![exporting_project](images/exporting_project.png "Экспорт проекта")
 10. Проверяем, что код был экспортирован: ![check_files](images/check_files.png "Проверка файлов")
 11.  Также можно проверить, что код корректно запускается в браузере.
-	1. Устанавливаем Python: 
+	-  Устанавливаем Python: 
 		- На Windows: 
 			```winget install python.python.3.13```
 		- На Linux Debian/Ubuntu: 
@@ -24,9 +24,9 @@
 			```sudo dnf install python```
 		- На Linux Arch: 
 			```sudo pacman -S python```
-	2. Заходим в папку с кодом HTML5 в терминале, и прописываем:
+	-  Заходим в папку с кодом HTML5 в терминале, и прописываем:
 		```python3 -m http.server```
-	3. В браузере в адресную строку вбиваем ```loclhost:8000```
-	4. Проверяем работоспособность сервера:![testing](images/testing.png "Тестируем")
+	-  В браузере в адресную строку вбиваем ```loclhost:8000```
+	-  Проверяем работоспособность сервера:![testing](images/testing.png "Тестируем")
 Теперь можно создавать репозиторий Github Pages.
 ## 2. Разворачиваем сервер с помощью Github Pages
