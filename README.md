@@ -3,14 +3,14 @@
 В этом мануале реализован пример игры на Godot с помощью нашего инструмента и встроенного в Godot функционала.
 ## 1. Экспорт игры в HTML5 код
 В разных движках есть для этого различные инструменты, в Godot уже реализована разработчиками функция (пока не реализована в Godot Mono (для .NET) >4).
-1. Заходим в наш проект в Godot ![[projects_menu.png]]
-2. Заходим во вкладку Project > Export ![[export.png]]
-3. Add... > Web ![[export_menu.png]]
-4. Если появляется ошибка, как здесь:![[no_templates_error.png]]
-5. Нажимаем "Manage Export Templates":![[manage_export_templates.png]]
-6. Открывается менеджер темплейтов для веба, нажимаем сразу "Download and Install" (примерно 1 ГБ) ![[download_templates.png]]
-7. Нажимаем Close, возвращаемся в Project > Export и заходим в файловый менеджер ![[create_subdir.png]]
-8. Создаем папку под HTML5 код, файлу даем имя index.html! (это обязательно): ![[create_subfolder.png]] ![[subfolder_name.png]] ![[index.png]]
+1. Заходим в наш проект в Godot ![projects_menu](projects_menu.png "projects_menu")
+2. Заходим во вкладку Project > Export ![export](export.png "export")![[export.png]]
+3. Add... > Web ![export_menu](export_menu.png "export_menu")
+4. Если появляется ошибка, как здесь:![no_templates_error](no_templates_error.png "no_templates_error")
+5. Нажимаем "Manage Export Templates":![manage_export_templates](manage_export_templates.png "manage_export_templates")
+6. Открывается менеджер темплейтов для веба, нажимаем сразу "Download and Install" (примерно 1 ГБ) ![download_templates](download_templates.png "download_templates")
+7. Нажимаем Close, возвращаемся в Project > Export и заходим в файловый менеджер  ![create_subdir](create_subdir.png "create_subdir")
+8. Создаем папку под HTML5 код, файлу даем имя index.html! (это обязательно): ![create_subfolder](create_subfolder.png "Create subfolder") ![subfolder_name](subfolder_name.png "Subfolder") ![index](index.png "Index.html")
 
 9. Save > Export Project... > Save ![exporting_project](exporting_project.png "Экспорт проекта")
 10. Проверяем, что код был экспортирован: ![check_files](check_files.png "Проверка файлов")
