@@ -12,8 +12,8 @@
 7. Нажимаем Close, возвращаемся в Project > Export и заходим в файловый менеджер ![[create_subdir.png]]
 8. Создаем папку под HTML5 код, файлу даем имя index.html! (это обязательно): ![[create_subfolder.png]] ![[subfolder_name.png]] ![[index.png]]
 
-9. Save > Export Project... > Save ![[exporting_project.png]]
-10. Проверяем, что код был экспортирован: ![[check_files.png]]
+9. Save > Export Project... > Save ![exporting_project](exporting_project.png "Экспорт проекта")
+10. Проверяем, что код был экспортирован: ![check_files](check_files.png "Проверка файлов")
 11.  Также можно проверить, что код корректно запускается в браузере.
 	1. Устанавливаем Python: 
 		- На Windows: 
@@ -27,6 +27,6 @@
 	2. Заходим в папку с кодом HTML5 в терминале, и прописываем:
 		```python3 -m http.server```
 	3. В браузере в адресную строку вбиваем ```loclhost:8000```
-	4. Проверяем работоспособность сервера:![[testing.png]]
+	4. Проверяем работоспособность сервера:![testing](testing.png "Тестируем")
 Теперь можно создавать репозиторий Github Pages.
 ## 2. Разворачиваем сервер с помощью Github Pages
