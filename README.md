@@ -42,7 +42,7 @@ chmod +x upload_game.sh
 curl -O https://github.com/dens1neBS/telegamesapi/releases/download/v0.1.2/upload_game.bat 
 ./upload_game.bat
 ```
-1. Выполняем инструкции, что авторизоваться в GitHub. 
+1. Выполняем инструкции, чтобы авторизоваться в GitHub. 
 	 ![select_domain](images/authorization/authorizing.png)![select_https.png](images/authorization/select_https.png)![github_credentials](images/authorization/github_credentials.png)![login_with_a_web_browser.png](images/authorization/login_with_a_web_browser.png)
 	Затем появившийся код вводим в окно браузера (откроется автоматически, если нажать Enter) ![one-time-code.png](images/authorization/one-time-code.png)![code_enter_field](images/authorization/code_enter_field.png)
 	![configrm_authorization.png](images/authorization/configrm_authorization.png)
@@ -59,8 +59,7 @@ curl -O https://github.com/dens1neBS/telegamesapi/releases/download/v0.1.2/uploa
 7. Регистрируемся (если не были до данного момента) и вводим комманду /newbot
 8. Создаем бота по инструкции
 9. Затем вводим команду /newapp
-10. Заполняем поля примерно вот так:
-	![newwebapp.png](images/telegram_dialogue/newwebapp.png)
+10. Заполняем поля примерно вот так: ![newwebapp.png](images/telegram_dialogue/newwebapp.png)
 11. Вводим уникальный никнейм для приложения, и @BotFather выдает нам ссылку на игру!
 	![final](images/telegram_dialogue/final.png)
 12. Теперь у вас есть ссылка на вашу игру в рамках Telegram. Как её загрузить в вашего бота - смотрите в нашей документации к telegamesapi (https://github.com/dens1neBS/telegamesapi/wiki)
